@@ -1,0 +1,356 @@
+@media only screen and (min-width: 320px) {
+	#ventana{
+	background-position: 0 1.5rem !important;
+}
+
+}
+@media only screen and (min-width: 992px) {
+	#menuApp  a{
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	tbody{
+		font-size: .8rem;
+		font-weight: bolder;
+	}
+	thead, tfoot{
+		font-size: 1.2rem;
+	}
+
+}
+html, body{
+	margin:0;
+	padding:0;
+	font-family:'Roboto Condensed';
+}
+html{
+}
+body{
+background: #333;
+}
+#menuApp{
+	position: fixed;
+		background: rgb(0, 0, 0);
+	box-shadow: 0 2px 2px rgba(48,48,48,.8);
+	width: 100%;
+	color:#fff;	
+	padding: 0;
+}
+#menuApp a, #menuApp i{
+	color:#fff;	
+}
+.navbar-brand{
+	margin-left: .5rem;
+	font-weight: bolder;
+}
+.navbar-collapse ul{
+	margin: 0;	
+	padding: 0;
+}
+.navbar-nav li{
+	border-top: .5px solid #484848;
+}
+.navbar-collapse a{
+	width: 100%;
+	padding-left: 1rem !important;	
+}
+
+#ventana{
+	display: none;
+	position: fixed;
+	bottom: 162px;
+	border: 1px solid #484848;
+	width: -webkit-fill-available;
+	margin-left: 32px;
+	margin-right: 32px;
+	background: #fbe9e7 ;
+	background-size: contain;
+	background-position: 0 -1.1rem;
+	z-index: 1080;
+	box-shadow: 0 0px 8px rgba(48,48,48,.8);
+}
+
+.titulo{
+	padding: .5rem;
+	display: flex;
+background: rgb(0, 0, 0);
+	color: white;
+}
+.titulo>span:nth-child(1){
+	font-weight: bold;
+	flex: auto;
+}
+
+#formularioRegistro{
+	padding: .5rem;
+	color: #643040;
+background: rgba(255,255,255,.8);
+}
+
+#seleccionTipo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#seleccionTipo label[for="ingreso"]{
+	background:rgba(0,255,0,.5);
+}
+#seleccionTipo label[for="egreso"]{
+	background:rgba(255,0,0,.5);
+}
+#seleccionTipo label[for="banco"]{
+	background:rgba(159,150,237,.5);
+}
+#seleccionTipo label[for="saldo"]{
+	background:rgba(255,255,0,.5);
+}
+#seleccionTipo label{
+	cursor: pointer;
+	display: block;
+}
+#seleccionTipo > span{
+	text-align: center;
+	width: 24%;
+}
+
+#camposRegistro {
+	margin-top: 1rem;
+}
+#camposRegistro > div{
+	margin-top: 1rem;
+	display: flex;
+	line-height: .8;
+}
+#camposRegistro > div > label{
+	cursor: pointer;
+	text-align:right;
+	width: 5rem;
+	padding-right: .1rem;
+}
+#camposRegistro input{
+	flex: auto;
+	border: none;
+	border-bottom: 1px solid #643040;
+}
+
+.campoVertical{
+	flex-direction: column;
+}
+.campoVertical label{
+	width: 100%;
+	text-align: center;
+}
+
+.pie{
+	display: flex;
+	justify-content: end;
+}
+
+#notificacion{
+	z-index: 1050;
+	position: absolute;
+	top: 86px;
+	right: 32px;
+	padding: .3rem;
+	background: rgba(255,255,255,.8);
+}
+
+.encabezado{
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	top: 40px;
+	width: 100%;
+	padding: .5rem;
+	text-align: center;
+background: rgb(0, 0, 0);
+	box-shadow: 0 2px 2px rgba(48,48,48,.8);
+	color: white;
+}
+.encabezado>span:nth-child(1){
+	line-height: .8;
+}
+.encabezado>span:nth-child(2){
+	text-align: end;
+	line-height: .1;
+}
+.encabezado i{
+	margin:0 .1rem 0 1.1rem;
+}
+
+main{
+	padding-top: 84px;
+	padding-bottom: 8.7rem;
+}
+main > div{
+	display: flex;
+	border-top:.1px solid #333; 
+	border-bottom:.1px solid #333; 
+	background:rgb(180, 180, 180);
+
+}
+
+.numerador{
+	padding: .3rem;
+	font-weight: bold;
+	text-align: center;
+	background:rgb(72,72,72);
+	color: white;
+	min-width:32px;
+}
+
+.herramienta{
+	flex: none;
+}
+.herramienta i{
+	cursor: pointer;
+	margin: .5rem;
+}
+.descripcion{
+	color: #643040;
+	flex: auto;
+	padding: .3rem;
+	background: rgba(255,255,255,1);
+}
+.Mes{
+	color: #643040;
+	flex: auto;
+	padding: .3rem;
+	background: rgba(255,255,255,1);
+}
+.monto{
+	flex:none;
+	width: 90px;
+	padding: .3rem;
+	text-align: right;
+	letter-spacing: -.5px;
+}
+
+.item{
+	margin: .4rem;
+	width: 20px;
+	height: 20px;
+}
+
+.Download, .Atras, .Todo, .Mes{
+	cursor: pointer;
+}
+
+.Dia{
+	font-size: .9rem;
+	text-align: center;
+	line-height: .9;
+	padding-top: .3rem;
+	padding-right: .4rem;
+	padding-left: .5rem;
+	cursor: pointer;
+}
+.Dia > span{
+	font-weight: bold;
+}
+
+.ingreso{
+	background:rgba(0,255,0,.5);
+	text-align: right;
+}
+.egreso{
+	background:rgba(255,0,0,.5);
+	text-align: right;
+}
+.banco{
+	background:rgba(159,150,237,.5);
+	text-align: right;
+}
+.saldo{
+	background:rgba(255,255,0,.5);
+	text-align: right;
+}
+
+.totales .resumen, .totales .monto{
+	/*background: rgba(255,255,255,1);*/
+}
+.totales{
+background: rgb(0, 0, 0);
+color: #fff;
+	position: fixed;
+	bottom: 0px;
+	height: 100px;
+	width: 100%;
+	box-shadow: 0 -2px 2px rgba(48,48,48,.8);
+
+}
+
+.resumen{
+	font-size: .9rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex: auto;
+	padding: .5rem;
+background: rgb(0, 0, 0);
+	justify-content: space-around;
+}
+.resumen > span:nth-child(odd){
+	text-align: right;
+	flex-basis: 50%;
+}
+.resumen > span:nth-child(even){
+	text-align: right;
+	flex-basis: 50%;
+}
+footer{
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: .3rem;
+	bottom: 99px;
+	width: 100%;
+	height: auto;
+	color: white;	
+}
+
+footer i{
+	cursor: pointer;
+}
+
+.Examinar{
+	cursor: pointer;
+}
+
+#Nuevo, .Mostrar, #Eliminar, #Duplicar, #Ocultar{
+background: rgb(0, 0, 0);
+	cursor: pointer;
+	border: 1px solid #484848;
+	border-radius:5px 5px 0 0;
+	border-bottom: none;
+	font-size: .8rem;
+	padding: .2rem .5rem;
+	margin: 0 .2rem;
+	box-shadow: 0 -2px 2px rgba(48,48,48,.8);
+
+}
+
+#Cancelar, #Guardar{
+	cursor: pointer;
+	border: 1px solid #484848;
+background: rgb(0, 0, 0);
+	border-radius:5px 5px 0 0;
+	border-bottom: none;
+	color: white;
+	font-size: .8rem;
+	padding: .2rem .5rem;
+	margin: 0 .2rem;
+}
+
+#Cerrar{
+	cursor: pointer;
+	border-radius:5px 5px 0 0;
+	border-bottom: none;
+	font-size: .8rem;
+	padding: .2rem .5rem;
+	margin: 0 .2rem;
+}
+
+
+/*background: rgb(0, 0, 0);*/
+	/*background:rgb(228, 110, 146);*/
