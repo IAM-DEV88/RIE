@@ -1,6 +1,5 @@
 # Registro de Ingresos y Egresos (RIE) - Aplicación de Contabilidad
-<img src="https://i.ibb.co/JCzhvJY/Captura-de-pantalla-2023-08-26-103209.png" width="300">
-<img src="https://i.ibb.co/kXpGgr9/Captura-de-pantalla-2023-08-26-103109.png" width="300">
+<img src="https://i.ibb.co/17MJYhs/Captura-de-pantalla-2023-08-26-103209.png">
 
 ## Descripción
 Esta es una poderosa herramienta de contabilidad desarrollada con JS, PHP y MySQL para gestionar tus registros financieros de manera eficiente. Esta aplicación te permite llevar un seguimiento detallado de tus transacciones, lo que facilita la toma de decisiones financieras informadas.
