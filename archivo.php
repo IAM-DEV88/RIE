@@ -12,14 +12,13 @@
 
   <link  crossorigin="anonymous" rel='stylesheet' id='BootstrapCSS-css'  href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?ver=1.0.0' type='text/css' media='all' />
   <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
-  <script src="js/index.js"></script>
 </head>
 <body>
   <?php include("php/estatico.php");  ?>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-  <script src="js/nucleoNuevo.js"></script>
+  <script src="js/nucleo.js"></script>
   <script>cargarUI("Archivo");</script>
 </body>
 </html>

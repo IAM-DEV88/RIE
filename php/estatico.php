@@ -36,12 +36,6 @@
     <h6>Tipo:</h6>
     <div id="seleccionTipo">
       <span>
-        <label for="banco">
-          Banco
-        </label>
-        <input type="radio" name="tipo" value="banco" id="banco">
-      </span>
-      <span>
         <label for="ingreso">
           Ingreso
         </label>
@@ -78,12 +72,6 @@
           Descripcion:
         </label>
         <input type="text" name="descripcion" id="descripcion" placeholder="Descripción">
-      </div>
-      <div>
-        <label for="referido">
-          Referido:
-        </label>
-        <input type="text" name="referido" id="referido" placeholder="Cliente/Proveedor">
       </div>
     </div>
   </form>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>RIE</title>
+  <title>Registro de Ingresos y Egresos</title>
   <meta charset="utf-8">
   <meta name="description" content="Control de ingresos y egresos">
   <meta name="keywords" content="ingresos, egresos, contabilidad">
@@ -12,7 +12,6 @@
 
   <link  crossorigin="anonymous" rel='stylesheet' id='BootstrapCSS-css'  href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?ver=1.0.0' type='text/css' media='all' />
   <link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
-  <script src="js/index.js"></script>
 </head>
 <body>
   <?php include("php/estatico.php");  ?>

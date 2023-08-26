@@ -3,7 +3,7 @@
     $mysqlUserName      = "root";
     $mysqlPassword      = "";
     $mysqlHostName      = "localhost";
-    $DbName             = "registros";
+    $DbName             = "rie";
     $backup_name        = "rie.sql";
     $tables             = "libro";
 
